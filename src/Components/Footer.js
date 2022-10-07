@@ -1,7 +1,7 @@
 import React from 'react';
-import "./footer.css";
+import "./components.css";
 
-function Footer() {
+export default function Footer() {
   return (
     <div className='set'>
       <a href={<Home />}>HOME</a>
@@ -15,4 +15,3 @@ function Footer() {
   )
 }
 
-export default Footer

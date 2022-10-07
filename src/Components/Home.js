@@ -5,8 +5,10 @@ export default function Home() {
     <div className='home'>
         <h1>MIA</h1>
         <p>Your Daily guide to Wellness and Happiness.</p>
+        <div>
+          
+        </div>
     </div>
-    
   )
 }
 

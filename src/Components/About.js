@@ -1,11 +1,12 @@
-import React from 'react'
+import React from 'react';
+import "./components.css";
 
-function About() {
+export default function About() {
   return (
-    <div>
-      
+    <div className='about'>
+      <h1>Vision and Mission.</h1>
+      <p>We can never be too prepared for the unknown</p>
+      <p> rather, we keep constant check on our behavioural patterns for success.</p>
     </div>
   )
 }
-
-export default About
