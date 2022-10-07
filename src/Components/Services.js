@@ -1,9 +1,10 @@
 import React from 'react'
 import SearchBar from './SearchBar'
 import Footer from './Footer';
+import "./Services.css";
 
 
-function Services() {
+export default function Services() {
 
 
   return (
@@ -28,4 +29,3 @@ function Services() {
   )
 }
 
-export default Services;

@@ -2,7 +2,7 @@ import React from 'react';
 import SignUp from './SignUp';
 import { NavLink } from "react-router-dom";
 
-function NavBar() {
+export default function NavBar() {
   return (
 
     <div className='nav'>
@@ -16,4 +16,3 @@ function NavBar() {
   )
 }
 
-export default NavBar;
