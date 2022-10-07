@@ -10,7 +10,7 @@ export default function NavBar() {
       <NavLink to="/about">About</NavLink>
       <NavLink to="/services">Services</NavLink>
 
-      <a href={<SignUp />}> <p><SignUp /></p> </a>
+      <a href={<SignUp />}>SignUp</a>
 
     </div>
   )

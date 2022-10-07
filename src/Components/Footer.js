@@ -1,11 +1,12 @@
-import React from 'react'
+import React from 'react';
+import "./footer.css";
 
 function Footer() {
   return (
     <div className='set'>
-      <a href=''>HOME</a>
-      <a href=''>ABOUT</a>
-      <a href=''>CONTACTS</a>
+      <a href={<Home />}>HOME</a>
+      <a href={<About />}>ABOUT</a>
+      <a href='#'>CONTACTS</a>
 
       <button type='submit'>SUBSCRIBE</button>
       <div className='subscribeIcon'>(<Subscribe />)</div>
