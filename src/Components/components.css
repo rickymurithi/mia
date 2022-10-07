@@ -1,5 +1,5 @@
 .about {
-    background-color: rgb(214, 255, 32);
+    background-color: rgb(184, 32, 255);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -13,7 +13,7 @@
 
 .home {
     font-weight: bold;
-    background-color: rgb(214, 255, 32);
+    background-color: rgb(184, 32, 255);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -23,7 +23,7 @@
 .nav {
     display: flex;
     justify-content: space-evenly;
-    background-color: rgb(83, 128, 0);
+    background-color: rgb(112, 218, 13);
 }
 
 .card {
@@ -31,7 +31,7 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(214, 255, 32);
+    background-color: rgb(184, 32, 255);
 }
 
 .card0 footer {
