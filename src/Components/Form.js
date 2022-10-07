@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import "./form.css";
 
-function Form(props) {
+ export default function Form(props) {
     const [focused, setFocused] = useState(false);
 
     const {label, errorMessage, onChange, id, ...inputProps} = props;
@@ -22,4 +22,6 @@ function Form(props) {
     </div>
   )
 }
+
+
 
