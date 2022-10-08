@@ -1,10 +1,12 @@
 import React from 'react';
-//import SignUp from './SignUp';
+import SignUp from './SignUp';
+import './navbar.css';
+// import { NavLink } from "react-router-dom";
 import {Link} from 'react-router-dom'
-
 
 export default function NavBar() {
   return (
+
     <div className='navigation'>
 
       <a href="/" className="brand-name">
@@ -36,9 +38,6 @@ export default function NavBar() {
           </li>
           <li>
             <Link to="/services">Services</Link>
-          </li>
-          <li>
-            <Link to="/signup">SignUp</Link>
           </li>
         </ul>
       </div>

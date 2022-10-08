@@ -2,14 +2,7 @@ import React from 'react'
 
 const Card = ({author, description, imgUrl, name}) => {
   return (
-    // <div>
-    //     <h1>{author}</h1>
-    //     <p>{description}</p>
-    //     <img src={imgUrl}/>
-    //     <p>{name}</p>
-    // </div>
-
-
+  
 <div className="container-card">
   <div className="card">
     <div class="card__header">

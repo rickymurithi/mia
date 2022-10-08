@@ -7,27 +7,21 @@ import About from "./Components/About";
 import Home from "./Components/Home";
 
 import './App.css';
-import SignUp from "./Components/SignUp";
+// import SignUp from "./Components/SignUp";
 
 function App() {
   return (
     <div>
       <NavBar />
+      {/* <Home />
+      <About /> */}
       <Routes>
-        <Route path="/about">
-                <About />
-              </Route>
-              <Route path="/services">
-                <Services />
-              </Route>
-              <Route path="/signup">
-                <SignUp />
-              </Route>
-              <Route path="/">
-                <Home />
-              </Route>
+        <Route path="/home" element={<Home />}/>
+        <Route path="/about" element={<About />}/>
+        <Route path="/services" element={<Services />}/>
       </Routes>
     </div>
+    
   );
 }
 
