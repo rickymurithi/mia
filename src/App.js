@@ -1,6 +1,6 @@
 import React from "react";
-import { BrowserRouter, Route, route } from "react-router-dom";
-import { FiSettings} from "react-icons/fi";
+import { BrowserRouter, Route } from "react-router-dom";
+
 import NavBar from './Components/NavBar';
 import Services from './Components/Services';
 

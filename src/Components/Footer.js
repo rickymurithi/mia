@@ -2,6 +2,7 @@ import React from 'react';
 import Home from './Home';
 import About from './About';
 import "./components.css";
+import { Fi} from "react-icons/fi";
 
 export default function Footer() {
   return (
@@ -10,8 +11,9 @@ export default function Footer() {
       <a href={<About />}>ABOUT</a>
       <a href='#'>CONTACTS</a>
 
-      <button type='submit'>SUBSCRIBE</button>
-      <div className='subscribeIcon'>(<Subscribe />)</div>
+      <button type='button' className='' style={{background: 'pink', borderRadius: '50%'}}>
+        <Fi />
+        </button>
 
     </div>
   )
