@@ -1,8 +1,10 @@
 import React from "react";
-import { BrowserRouter, Route } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import NavBar from './Components/NavBar';
 import Services from './Components/Services';
+import About from "./Components/About";
+import Home from "./Components/Home";
 
 import './App.css';
 import SignUp from "./Components/SignUp";
@@ -11,11 +13,8 @@ function App() {
   return (
     <div>
       <NavBar />
-      <BrowserRouter>
-        <div className="flex relative dark:bg-main-dark-bg">
-          <div className="App">
-            <switch>
-              <Route path="/about">
+      <Routes>
+        <Route path="/about">
                 <About />
               </Route>
               <Route path="/services">
@@ -24,15 +23,11 @@ function App() {
               <Route path="/signup">
                 <SignUp />
               </Route>
-              <Route exact path="/">
+              <Route path="/">
                 <Home />
               </Route>
-            </switch>
-          </div>
-        </div>
-      </BrowserRouter>
+      </Routes>
     </div>
-    
   );
 }
 

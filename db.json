@@ -4,7 +4,7 @@
             "author": "Ricky",
             "description": "Mia; Mental Health service delivery application that will caution and attend to the needs of affected individuals in the society further offering group assessments and evaluation packages.",
             "id": 1,
-            "imageLink": "https://i.ibb.co/WF3bxjM/theme.jpg",
+            "imgUrl": "https://source.unsplash.com/600x400/?computer",
             "name": "Introduction"
             
             
@@ -13,7 +13,7 @@
             "author": "Ricky",
             "description": "Book appointments and carry out mental health practices with a series of guided tests in their comfort space and flexible maintenance rates.",
             "id": 2,
-            "imageLink": "https://i.ibb.co/4ZGVkhY/mind.jpg",
+            "imgUrl": "https://source.unsplash.com/600x400/?computer",
             "name": "Introduction 2"
             
             
@@ -22,7 +22,7 @@
             "author": "Ricky",
             "description": "We embrace every part of ourselves, not just the 'positive' things! Self-acceptance is unconditional—you can recognize weaknesses, but still fully accept yourself.",
             "id": 3,
-            "imageLink": "https://i.ibb.co/2kLgnLP/selfacceptance.jpg",
+            "imgUrl": "https://source.unsplash.com/600x400/?computer",
             "name": "Self acceptance"
             
             
@@ -31,7 +31,7 @@
             "author": "Ricky",
             "description": "Self-love; having a high regard for your own well-being and happiness, not sacrificing your well-being to please others.",
             "id": 4,
-            "imageLink": "https://i.ibb.co/tM9k0ZV/selflove.jpg",
+            "imgUrl": "https://source.unsplash.com/600x400/?computer",
             "name": "Self love"
             
             
@@ -40,7 +40,7 @@
             "author": "Ricky",
             "description": "Self-awareness; the capacity to look inward and understand our own feelings, emotions, stressors, and personality. Influencing our judgements, decisions, and interactions with other people.",
             "id": 5,
-            "imageLink": "https://i.ibb.co/2q7YHkk/selfunderstanding.jpg",
+            "imgUrl": "https://source.unsplash.com/600x400/?computer",
             "name": "Self understanding"
            
         },
@@ -48,7 +48,7 @@
             "author": "Ricky",
             "description": "Self development; the process of learning new things and building new skills—skills that help us increase our chances of success, achieving our goals, and manifesting our dreams.",
             "id": 6,
-            "imageLink": "https://i.ibb.co/cwjxRwQ/selfdevelopment.png",
+            "imgUrl": "https://source.unsplash.com/600x400/?computer",
             "name": "Self development"
            
             
@@ -57,7 +57,7 @@
             "author": "Ricky",
             "description": "Group development; the process by which members of newly formed work teams learn about their teammates, establish their roles and responsibilities, and acquire the task work and teamwork capabilities required to coordinate their effort to perform effectively as a team.",
             "id": 7,
-            "imageLink": "https://i.ibb.co/sJGd1Zq/groupdevelopment.jpg",
+            "imgUrl": "https://i.ibb.co/sJGd1Zq/groupdevelopment.jpg",
             "name": "Group Development"
            
             
@@ -66,7 +66,7 @@
             "author": "Ricky",
             "description": "Conflict resolution; the informal or formal process that two or more parties use to find a peaceful solution to their dispute.",
             "id": 8,
-            "imageLink": "https://i.ibb.co/cNPmX14/conflictresolution.jpg",
+            "imgUrl": "https://i.ibb.co/cNPmX14/conflictresolution.jpg",
             "name" : "Conflict Resolution"
             
         },
@@ -74,7 +74,7 @@
             "author": "Ricky",
             "description": "Group relationships; understanding the dynamics, co-existing skills together with structure.",
             "id": 9,
-            "imageLink": "https://i.ibb.co/wBZdTjg/grouprelationships.jpg",
+            "imgUrl": "https://i.ibb.co/wBZdTjg/grouprelationships.jpg",
             "name" : "Group Relationships"
             
         },
@@ -82,7 +82,7 @@
             "author": "Ricky",
             "description": "Group transitioning; handling and adapting to change.",
             "id": 10,
-            "imageLink": "https://i.ibb.co/JpSwXzC/transition.jpg",
+            "imgUrl": "https://i.ibb.co/JpSwXzC/transition.jpg",
             "name" : "Group Transition"
             
         }
