@@ -14,7 +14,6 @@ export default function Home() {
       <img src={happy} alt="happy"/>
     </div>
     </div>
-      
   )
 }
 

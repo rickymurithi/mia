@@ -22,10 +22,10 @@ function SearchBar({placeholder, data}) {
     }
   };
 
-  const clearInput =() => {
+  /*const clearInput =() => {
     setFilteredData([]);
     setWordEnter("");
-  }
+  }*/
 
   return (
     <div className='search'>
@@ -33,10 +33,10 @@ function SearchBar({placeholder, data}) {
           <input type="text" placeholder='Search Package' value={wordEnter} onChange={handleFilter} />
           <button type='submit' value='submit' >Submit</button>
           <button type="reset" value="Reset">Reset</button>
-          <div className='searchIcon'> {filteredData.length === 0 ? (<SearchIcon />) : (<CloseIcon id='closebtn' onClick={clearInput}/>)} </div>
+          
         </div>
 
-      {filteredData.length !=0 && (
+      {filteredData.length !==0 && (
         <div className='dataResult'>
           {filteredData.slice(0, 3).map((key, value) => {
             return (<a className='dataItem' href={value.imageLink}> <p>{value.name}</p> </a>)
