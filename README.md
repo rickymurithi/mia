@@ -25,7 +25,7 @@
 <h2>APIs</h2>
 <ul>
 <li><a href="http://localhost:8002/images">local host</a>A catalogue of images representing service packages offered. </li>
-<li><a href="">Deployment link</a></li>
+<li><a href="https://mia-100.netlify.app">Deployment link</a></li>
 </ul>
 
 ## <h2>Application Manual</h2>
