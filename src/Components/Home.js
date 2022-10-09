@@ -9,6 +9,7 @@ export default function Home() {
       <div className='home1'>
         <h1 class="font-weight-light">MIA</h1>
         <p>Your Daily guide to Wellness and Happiness.</p>
+        <p>© 2022 MIA, Inc.</p>
       </div>
       <div className='image'>
       <img src={happy} alt="happy"/>

@@ -46,12 +46,16 @@ body{
 .footer{
   text-align: center;
 }
+.footer{
+  display: flex;
+  justify-content: space-evenly;
+}
 
 .home {
   height: 100vh;
   display: flex;
   flex-direction: row;
-  background: #fff;
+  background: rgb(249, 252, 246);
   left: 0;
   margin-left: 0;
   padding-left: 0;
@@ -81,7 +85,7 @@ body{
   justify-content: center;
   align-items: center;
   text-align: center;
-  background: #fff;
+  background: white;
   border-radius: 15px;
   box-shadow: o o 40px rgba(0,0,0,4);
 }

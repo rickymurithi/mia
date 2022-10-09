@@ -5,9 +5,10 @@ import NavBar from './Components/NavBar';
 import Services from './Components/Services';
 import About from "./Components/About";
 import Home from "./Components/Home";
+//import SignUp from "./Components/SignUp";
 
 import './App.css';
-// import SignUp from "./Components/SignUp";
+
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/home" element={<Home />}/>
         <Route path="/about" element={<About />}/>
         <Route path="/services" element={<Services />}/>
+        {/*<Route path="/signup" element={<SignUP />}/>*/}
       </Routes>
     </div>
     
