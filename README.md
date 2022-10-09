@@ -5,7 +5,7 @@
 ## Table of Content
 
 + [Introduction](#Introduction)
-+ [Technology Used](#technology-used)
++ [Technology Used]
 + [APIs](#APIs)
 + [Application manual](#Application manual)
 + [Licence](#licence)
@@ -22,7 +22,7 @@
 <li>Plus, <strong>Vanilla Java Script</strong></li>
 </ul>
 
-##<h2>APIs</h2>
+<h2>APIs</h2>
 <ul>
 <li><a href="http://localhost:8002/images">local host</a>A catalogue of images representing service packages offered. </li>
 <li><a href="">Deployment link</a></li>
@@ -66,5 +66,6 @@ Slack Profile - [Erick Muriithi](https://moringaclassroom.slack.com/archives/D03
 
 Linked - [Ricky-Muriithi](https://linkedin.com/in/ricky-muriithi-4a997b129)
 
+Github - [rickymurithi](https://github.com/rickymurithi)
 
 </body>
